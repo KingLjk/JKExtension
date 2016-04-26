@@ -1,36 +1,11 @@
 //
 //  NSObject+JKExtension.h
-//  利用 runtime 进行解归档
+//  利用 runtime 
 //
 //  Created by 李佳贵 on 16/4/22.
 //  Copyright © 2016年 李佳贵. All rights reserved.
 //
 
-// 注意枚举的使用
-/*
- typedef enum {
- SexMale,
- SexFemale} Sex;
- @interface User : NSObject
- @property (copy, nonatomic) NSString *name;
- @property (copy, nonatomic) NSString *icon;
- @property (assign, nonatomic) int age;
- @property (assign, nonatomic) double height;
- @property (strong, nonatomic) NSNumber *money;
- @property (assign, nonatomic) Sex sex;
- @end
- 
- NSDictionary *dict = @{
- @"name" : @"Jack",
- @"icon" : @"lufy.png",
- @"age" : @20,
- @"height" : @"1.55",
- @"money" : @100.9,
- @"sex" : @(SexFemale)
- };
-
- 
- */
 
 
 #import <Foundation/Foundation.h>
